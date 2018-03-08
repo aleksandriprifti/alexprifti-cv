@@ -214,3 +214,21 @@ footer .cv-pdf i:hover{
 .container-fluid{
     padding: 0;
 }
+
+/*------------------------------------------Three reasons*/
+
+.three-reason-icon{
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading{
+    margin-bottom: 15px;
+    
+}
+
+/*------------------------------------------Personal Info*/
+
+.bg-color-personal-info{
+    background-color: #f4f4f4;
+}
