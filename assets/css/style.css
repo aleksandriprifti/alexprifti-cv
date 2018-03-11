@@ -66,6 +66,7 @@ h6 {
     display: table;
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-size: 300;
@@ -326,12 +327,24 @@ footer .cv-pdf i:hover {
     content: "";
     background: #fafafa;
 }
+
+.history-heading{
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items{
+    margin-bottom: 30px;
+}
+
+
 /*------------------------------------------Media query*/
 
 @media (min-width: 992px) {
 
     .section-column {
-        padding: 0 30px 30px;
+        padding-right:10px;
+        padding-left: 60px;
         float: none;
         display: table-cell;
     }
